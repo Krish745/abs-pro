@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+    line-height: 1.6;
+    color: #333;
+}
+:root {
+    --primaryColor: #189af9;
+    --secondaryColor: #eaf6ff;
+    --darkColor: #330300;
+    --lightColor: #007bff;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffPrimary: "Poppins", serif;
+}
+/* project standard classes Starts */
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 1rem 0;
+}
+
+/* project standard classes Ends */
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dflex-col-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.dflex-col-just-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.dflex-start {
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    /* text-align: center; */
+    /* flex-direction: column; */
+}
+
+.dflexaround {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* ====================== navbar =========================== */
+.nav-link  {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #000000b3;
+}
+.heroContainer {
+    /* padding: 4rem; */
+    background-color:#007bff39;
+}
+.heroJumbotron h4 {
+    color: #212529;
+    font-size: 20px;
+    /* line-height: 56px; */
+    font-weight: 500;
+}
+.heroJumbotron h1 span{
+    color:#fa9200; 
+    font-size: 42px;
+    line-height: 56px;
+    font-weight: 700;
+}
+.heroJumbotron h2 {
+    color: #000000;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+}
+.heroJumbotron h2 span {
+    color:#fa9200; 
+    font-size: 42px;
+    line-height: 56px;
+    font-weight: 700;
+}
+.heroJumbotron h5 {
+    color: #696969;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.heroJumbotron p {
+    color: #212529;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+.heroBody {
+    padding: 170px 80px;
+   
+}
+.heroJumbotron {
+    /* background-color: #189af9; */
+}
+.checkhead h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #0569c2;
+}
+.checkhead h2 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    color: #212529;
+}
+.checkhead p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #212529;
+}
+.ccBody {
+    padding: 5rem;
+}
+.cardimg img {
+    height: 80vh;
+}
+.navbar-brand img {
+    height: 16vh;
+    /* width: 60%; */
+}
+.cardsimg img {
+    height: 80vh;
+}
+.rebaBody {
+    padding: 6rem;
+}
+.why-choose-us {
+    margin-top: 50px;
+  }
+  .latest-tech {
+    margin-top: 20px;
+  }
+  .tech-text {
+    font-size: 1.1rem;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: 50vh;
+  }
+  .team-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  .team-image img {
+    max-width: 100%;
+    height: 40vh;
+  }
+  .team-text {
+    margin-left: 30px;
+  }
+  .card-1 {
+    background-color: #d272f87e;
+    border-radius: 3rem;
+  }
+  .card-2 {
+    background-color: #959effa5;
+    border-radius: 3rem;
+  }
+  .card-3 {
+    background-color: #f5446da8;
+    border-radius: 3rem;
+  }
+  .webImage img {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .card-4 {
+    background-color: #f0688590;
+    border-radius: 3rem;
+  }
+  .card-5 {
+    background-color: #f1b02e85;
+    border-radius: 3rem;
+  }
+  .card-6 {
+    background-color: #6f82fe92;
+    border-radius: 3rem;
+  }
+  .client-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  .client-initial {
+    font-weight: bold;
+    color: #007bff;
+  }
+  .footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 0;
+  }
+  .footer h5 {
+    font-weight: bold;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .tit {
+    margin-left: 1rem;
+  }
+
+
+
+
+@media(width <=576px) {
+    .navContainer .heroContainer  {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 576px;
+        margin: auto;
+        padding: 0 1rem;
+
+    }
+    .heroBody {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 100px 40px;
+    }
+    .heroImage  img {
+        height: 30vh;
+        margin-top: 2rem;
+    }
+    .ccBody {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cardimg img {
+        height: 30vh;
+    }
+    .navbar-brand img {
+        height: 16vh;
+        width: 60%;
+    }
+    .rebaBody {
+        padding: 0rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cardsimg img {
+        height: 30vh;
+    }
+    .mm {
+        align-items: center;
+    }
+    .bbs {
+        align-items: center;
+        justify-content: center;
+        margin-left: 4rem;
+    }
+    .team-image img  {
+        display: none;
+    }
+
+}
+
